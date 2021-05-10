@@ -1,0 +1,103 @@
+html body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg-black {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/dark-honeycomb.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.nav-size {
+    font-size: 14px;
+}
+
+.jarak {
+    margin-top: 100px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.bg-abu {
+    background-color: rgb(247, 247, 247);
+}
+
+.bg-warna {
+    background-image: url(../img/colorful.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.garis-kanan-tipis {
+    border-right: 2px solid rgb(228, 228, 228);
+    box-sizing: border-box;
+}
+
+.garis-kanan {
+    border-right: 4px solid white;
+    box-sizing: border-box;
+}
+
+.garis-kanan-2 {
+    border-right: 0px solid white;
+    box-sizing: border-box;
+}
+
+.garis-kiri {
+    border-left: 4px solid white;
+    box-sizing: border-box;
+}
+
+.balok {
+    background-color: orange;
+    color: rgb(240, 240, 240);
+    box-shadow: 1px 1px 5px rgb(221, 221, 221);
+    transition: .3s;
+}
+
+.balok:hover {
+    background-color: rgb(201, 130, 0);
+    color: white;
+    box-shadow: 1px 1px 5px rgb(63, 63, 63);
+    cursor: pointer;
+}
+
+.img-gelap {
+    filter: brightness(0.5) contrast(1) sepia(0.2);
+}
+
+.teks-shadow {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.teks-biru-muda {
+    color: rgb(0, 195, 255);
+}
+
+.teks-biru-muda:hover {
+    color: rgb(153, 231, 255);
+}
+
+.gerak {
+    overflow: hidden;
+}
+
+.gerak img {
+    transform: scale(1.0);
+    transition: 1s;
+}
+
+.gerak:hover img {
+    transform: scale(1.1);
+    transition-timing-function: linear;
+}
+
+@media (min-width: 768px) {
+    .garis-kanan-2 {
+        border-right: 4px solid white;
+        box-sizing: border-box;
+    }
+}
